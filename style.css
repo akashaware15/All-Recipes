@@ -1,14 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/******************************** HEADER ********************************/
+
+.logo {
+  height: 30px;
+  width: 95px;
+  background-image: url("https://img.hellofresh.com/w_256,q_100,f_auto,c_limit,fl_lossy/hellofresh_website/logo/Hello_Fresh_Lockup.png");
+  background-size: cover;
+  margin: 0px 16px 0px 0px;
 }
 
 
-.logo {
-    height: 10rem;
-    width: 10rem;
+.header {
+  height: 63.2px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 0px 10rem;
+  z-index: 1;
+}
+
+
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 16px;
+  color: black;
+}
+
+.header-left a:hover {
+  background-color: #d0caca;
+}
+
+
+.log-in {
+  height: 40px;
+  width: 110px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+/********************************dropdown********************************/
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  background-color: #fefaf3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  min-width: 220px;
+  z-index: 2;
+}
+
+.dropdown-menu a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #eee;
+}
+
+/* Show menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.menu i {
+  transition: transform 0.3s ease;
+}
+
+.dropdown:hover i {
+  transform: rotate(180deg);
 }

@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>All-Recipes</title>
 </head>
@@ -13,11 +16,52 @@
         <div class="header">
             <div class="header-left">
                 <div class="logo">
-                    <img src="svg/logo.svg" alt="" />
                 </div>
+                <a href="">Our Plans</a>
+                <div class="dropdown">
+                    <a href="" class="dropdown-toggle">About Us &nbsp;
+                        <span class="menu"><i class="fas fa-chevron-down"></i></span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#">About Us</a>
+                        <a href="#">Our stories</a>
+                        <a href="#">Hoe to works</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="" class="dropdown-toggle">Our Menus &nbsp;
+                        <span class="menu"><i class="fas fa-chevron-down"></i></span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#">Our Menus</a>
+                        <a href="#">coockbook and recipes</a>
+                        <a href="#">Vegetarian recipes</a>
+                    </div>
+                </div>
+
+                <a href="">Gift Cards</a>
+                <div class="dropdown">
+                    <a href="" class="dropdown-toggle" onclick="toggleArrow()">Sustainability &nbsp;
+                        <span class="menu"><i class="fas fa-chevron-down"></i></span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#">Sustainability</a>
+                        <a href="#">Our sustainability team</a>
+                        <a href="#">Recycling and Packaging</a>
+                        <a href="#">Cut back on food waste</a>
+                        <a href="#">Reduce your carbon footprint</a>
+                        <a href="#">Suppliers</a>
+                        <a href="#">Social impact</a>
+                        <a href="#">Hunger matters</a>
+                    </div>
+                </div>
+
+                <a href="">HelloFresh for Teams</a>
             </div>
-            <div class="header-right"></div>
-        </div>
+            <div class="header-right">
+                <p class="log-in">Log in</p>
+            </div>
     </header>
     <script src="script.js"></script>
 </body>
