@@ -19,13 +19,13 @@
 }
 
 .header {
-  height: 63.2px;
+  height: 9vh;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   gap: 5%;
   align-items: center;
   background-color: #f0f0f0;
-   position: sticky;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -88,7 +88,7 @@
   cursor: pointer;
   padding: 10px;
 }
- 
+
 .dropdown-toggle:hover {
   background-color: #f0f0f0;
 }
@@ -132,12 +132,35 @@
 
 .hero-section {
   height: 1000px;
-  background-color: red;
+  background-image: url("Images/Hero-Image-DSK.png");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding-top: 20px;
+  height: 91vh;
 }
 
 .div {
   height: 100px;
   width: 100px;
   background-color: black;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-hero-section {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 3.125rem;
+}
+
+.hero-section-span1 {
+  margin-top: 20px;
 }
