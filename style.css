@@ -24,7 +24,7 @@
   justify-content: space-around;
   gap: 5%;
   align-items: center;
-  background-color: #f5ebeb;
+ background-color: #FAF8F3;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,12 +69,12 @@
   justify-content: center;
   border-radius: 10px;
   font-weight: 600;
-  background-color: #f5ebeb;
+  background-color: #FAF8F3;
   cursor: pointer;
 }
 
 .log-in:hover {
-  background-color: #d0caca;
+  background-color: #e0dcdcc9;
 }
 
 /* dropdown */
@@ -319,14 +319,14 @@ background-color: #FAF8F3;
   padding: 32px 0px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .container5-video1 {
   background-image: url("Images/video-container1.webp");
   background-size: cover;
-  height: 179px;
+  height: 170px;
   width: 348px;
   margin: 0px 0px 18px;
 }
@@ -334,7 +334,7 @@ background-color: #FAF8F3;
 .container5-video2 {
   background-image: url("Images/video-container2.webp");
   background-size: cover;
-  height: 179px;
+  height: 170px;
   width: 348px;
   margin: 0px 0px 18px;
 }
@@ -342,7 +342,7 @@ background-color: #FAF8F3;
 .container5-video3 {
   background-image: url("Images/video-container3.webp");
   background-size: cover;
-  height: 179px;
+  height: 170px;
   width: 348px;
   margin: 0px 0px 18px;
 }
