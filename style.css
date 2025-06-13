@@ -24,8 +24,8 @@
   justify-content: space-around;
   gap: 5%;
   align-items: center;
-  background-color: #f0f0f0;
-  position: sticky;
+  background-color: #f5ebeb;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -44,7 +44,7 @@
   text-decoration: none;
   font-size: 14px;
   padding: 16px;
-  color: black;
+  color: #242424;
 }
 
 .header-left a:hover {
@@ -62,12 +62,14 @@
 .log-in {
   height: 40px;
   width: 110px;
-  border: 2px solid black;
+  color: #242424;
+  border: 2px solid #242424;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: 10px;
   font-weight: 600;
+  background-color: #f5ebeb;
   cursor: pointer;
 }
 
@@ -87,10 +89,6 @@
   font-size: 16px;
   cursor: pointer;
   padding: 10px;
-}
-
-.dropdown-toggle:hover {
-  background-color: #f0f0f0;
 }
 
 .dropdown-menu {
@@ -131,20 +129,14 @@
 /******************************* Hero-section *******************************/
 
 .hero-section {
-  height: 1000px;
+  height: 91vh;
   background-image: url("Images/Hero-Image-DSK.png");
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 20px;
-  height: 91vh;
-}
-
-.div {
-  height: 100px;
-  width: 100px;
-  background-color: black;
+  margin-top: 9vh;
 }
 
 .hero-section {
@@ -156,11 +148,72 @@
 
 .content-hero-section {
   text-align: center;
-  font-size: 23px;
-  font-weight: bold;
+  font-size: 50px;
+  font-weight: 900;
   line-height: 3.125rem;
+  color: #242424;
 }
 
 .hero-section-span1 {
   margin-top: 20px;
+  font-size: 17px;
+  color: #242424;
+}
+
+.hero-section-span2 {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #242424;
+}
+
+.hero-section-btn {
+  padding: 12px 24px;
+  background-color: #242424;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+/************************* Container-1 **************************/
+
+.container-1 {
+  padding: 48px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1-span1 {
+  font-size: 23px;
+  font-weight: 700;
+  padding: 32px 12px 12px;
+  text-align: center;
+  color: #242424;
+}
+
+.container1-span2 {
+   padding: 0px 8px 24px;
+   text-align: center;
+   font-size: 13px;
+   color: #242424;
+}
+
+/************************* Container-2 **************************/
+
+.container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px;
+  gap: 6%;
+}
+
+.container2-photo {
+  background-image: url("Images/container2-img.avif");
+  background-size: cover;
+  height: 270px;
+  width: 520px;
 }
