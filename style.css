@@ -174,6 +174,11 @@
   font-weight: 600;
   border-radius: 10px;
   margin-top: 50px;
+  cursor: pointer;
+}
+
+.hero-section-btn:hover {
+  background-color: #333;
 }
 
 /************************* Container-1 **************************/
@@ -184,6 +189,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #FAF8F3;
 }
 
 .container1-span1 {
@@ -195,10 +201,10 @@
 }
 
 .container1-span2 {
-   padding: 0px 8px 24px;
-   text-align: center;
-   font-size: 13px;
-   color: #242424;
+  padding: 0px 8px 24px;
+  text-align: center;
+  font-size: 13px;
+  color: #242424;
 }
 
 /************************* Container-2 **************************/
@@ -209,6 +215,7 @@
   justify-content: center;
   padding: 32px 0px;
   gap: 6%;
+  background-color: #FAF8F3;
 }
 
 .container2-photo {
@@ -216,4 +223,168 @@
   background-size: cover;
   height: 270px;
   width: 520px;
+  border-radius: 20px;
+}
+
+.container2-text {
+  width: 500px;
+  color: #242424;
+}
+
+.container2-text span {
+  font-size: 14px;
+}
+
+.container2-text h2 {
+  margin: 16px 0px;
+}
+
+/************************* Container-3 **************************/
+
+.container-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px;
+  gap: 6%;
+  background-color: #FAF8F3;
+}
+
+.container3-photo {
+  background-image: url("Images/container3-img.avif");
+  background-size: cover;
+  height: 270px;
+  width: 520px;
+  border-radius: 20px;
+}
+
+.container3-text {
+  width: 500px;
+  color: #242424;
+}
+
+.container3-text span {
+  font-size: 14px;
+}
+
+.container3-text h2 {
+  margin: 16px 0px;
+}
+
+/************************* Container-4 **************************/
+
+.container-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px;
+  gap: 6%;
+  background-color: #FAF8F3;
+}
+
+.container4-photo {
+  background-image: url("Images/container4-img.avif");
+  background-size: cover;
+  height: 270px;
+  width: 520px;
+  border-radius: 20px;
+}
+
+.container4-text {
+  width: 500px;
+  color: #242424;
+}
+
+.container4-text span {
+  font-size: 14px;
+}
+
+.container4-text h2 {
+  margin: 16px 0px;
+}
+
+/************************* container-5 **************************/
+
+.container-5 {
+padding: 48px 0px;
+background-color: #FAF8F3;
+}
+
+.container-5 h2 {
+  text-align: center;
+  padding: 40px 12px;
+}
+
+.video-container {
+  padding: 32px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container5-video1 {
+  background-image: url("Images/video-container1.webp");
+  background-size: cover;
+  height: 179px;
+  width: 348px;
+  margin: 0px 0px 18px;
+}
+
+.container5-video2 {
+  background-image: url("Images/video-container2.webp");
+  background-size: cover;
+  height: 179px;
+  width: 348px;
+  margin: 0px 0px 18px;
+}
+
+.container5-video3 {
+  background-image: url("Images/video-container3.webp");
+  background-size: cover;
+  height: 179px;
+  width: 348px;
+  margin: 0px 0px 18px;
+}
+
+.container5-text {
+  height: 250px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container5-text span {
+  font-size: 14px;
+  color: #242424;
+  font-weight: 700;
+}
+
+.container5-text p {
+  font-size: 13px;
+  color: #242424;
+  text-align: center;
+  padding: 0px 16px;
+}
+
+.btn-container5 {
+  padding: 12px 24px;
+  background-color: #242424;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.video-container-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container5:hover {
+  background-color: #333;
 }
