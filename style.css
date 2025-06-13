@@ -15,30 +15,28 @@
   background-image: url("https://img.hellofresh.com/w_256,q_100,f_auto,c_limit,fl_lossy/hellofresh_website/logo/Hello_Fresh_Lockup.png");
   background-size: cover;
   margin: 0px 16px 0px 0px;
+  cursor: pointer;
 }
-
 
 .header {
   height: 63.2px;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   gap: 5%;
   align-items: center;
   background-color: #f0f0f0;
-  padding: 0px 10rem;
-  z-index: 1;
+   position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
+/* header-left */
 
 .header-left {
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-
-
-.header-right {
-  display: flex;
   align-items: center;
 }
 
@@ -50,9 +48,16 @@
 }
 
 .header-left a:hover {
-  background-color: #d0caca;
+  color: #5564b9;
 }
 
+/* header-right */
+
+.header-right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
 
 .log-in {
   height: 40px;
@@ -62,10 +67,15 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-/********************************dropdown********************************/
+.log-in:hover {
+  background-color: #d0caca;
+}
 
+/* dropdown */
 
 .dropdown {
   position: relative;
@@ -78,12 +88,11 @@
   cursor: pointer;
   padding: 10px;
 }
-
+ 
 .dropdown-toggle:hover {
   background-color: #f0f0f0;
 }
 
-/* Dropdown menu */
 .dropdown-menu {
   display: none;
   position: absolute;
@@ -107,7 +116,6 @@
   background-color: #eee;
 }
 
-/* Show menu on hover */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -118,4 +126,18 @@
 
 .dropdown:hover i {
   transform: rotate(180deg);
+}
+
+/******************************* Hero-section *******************************/
+
+.hero-section {
+  height: 1000px;
+  background-color: red;
+  padding-top: 20px;
+}
+
+.div {
+  height: 100px;
+  width: 100px;
+  background-color: black;
 }
